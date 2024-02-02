@@ -9,9 +9,9 @@ describe('Testing numbers', () => {
     expect(2 === 2).to.be.true;
   });
 
-  it('1 is equal to 5', function () {
+  it('1 is equal to 3', function () {
     return this.skip();
-    expect(1 === 5).to.be.true;
+    expect(1 === 3).to.be.true;
   });
 
   it('3 is equal to 3', () => {
