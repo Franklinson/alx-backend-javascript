@@ -1,6 +1,6 @@
 const Utils = {};
 
-const calculateNumber = (type, a, b) => {
+Utils.calculateNumber = function (type, a, b) {
   const i = Math.round(a);
   const j = Math.round(b);
 
@@ -18,4 +18,4 @@ const calculateNumber = (type, a, b) => {
   }
 }
 
-module.exports = calculateNumber;
+module.exports = Utils;
